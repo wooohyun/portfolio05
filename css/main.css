@@ -1,0 +1,377 @@
+.Wrap {
+    width: 1900px;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    background: #000;
+}
+
+header h1 {
+    position: relative;
+    margin: 0 0 30px 0;
+}
+
+header h1::after {
+    /* content: "";
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    margin: 20px auto 0px auto; */
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #919191;
+    top: 150%;
+    left: 50%;
+    margin-left: -50%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    gap: 40px;
+    margin: 0 0 -7px 0;
+
+}
+
+header nav ul li {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.main_visual {
+    margin: 0 auto;
+}
+
+.main_visual .container .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 0;
+    border: none;
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    /* opacity: 0.3; */
+    transition: 0.3s;
+    z-index: 999;
+}
+
+/* .main_visual .container .slick-arrow:hover {
+    opacity: 1;
+    transition: border 0.5s;
+} */
+
+.main_visual .container .slick-prev {
+    margin: 0 0 0 -700px;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.main_visual .container .slick-prev:hover {
+    transform: scale(1.2) translate(-50%, -50%) rotate(-45deg);
+}
+
+.main_visual .container .slick-next {
+    margin: 0 0 0 700px;
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.main_visual .container .slick-next:hover {
+    transform: scale(1.2) translate(-50%, -50%) rotate(135deg);
+}
+
+.main_visual .product01 {
+    position: relative;
+    background: url(../img/bg01.jpg) no-repeat center center/cover;
+    height: 70vh;
+
+}
+
+.main_visual .product02 {
+    position: relative;
+    background: url(../img/bg02.jpg) no-repeat center center/cover;
+    height: 70vh;
+    color: #fff;
+}
+
+.main_visual .product03 {
+    position: relative;
+    background: url(../img/bg03.jpg) no-repeat center center/cover;
+    height: 70vh;
+    color: #fff;
+}
+
+.main_visual .product04 {
+    position: relative;
+    background: url(../img/bg04.jpg) no-repeat center center/cover;
+    height: 70vh;
+}
+
+.main_visual .product05 {
+    position: relative;
+    background: url(../img/bg05.jpg) no-repeat center center/cover;
+    height: 70vh;
+    color: #fff;
+}
+
+
+.main_visual .txt {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main_visual .txt a {
+    position: absolute;
+    top: 65%;
+}
+
+.main_visual .txt h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.45;
+}
+
+.main_visual .txt p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.45;
+    margin: 0 0 10px 0;
+}
+
+.new_age {
+    padding: 100px 0;
+}
+
+.new_age .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.new_age .new_age_title {
+    position: relative;
+    background: url(../img/new_age_bg.jpg) no-repeat center center/cover;
+    height: 50vh;
+    margin: 0 0 30px 0;
+}
+
+.new_age .new_age_title h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.new_age .new_age_detail {
+    text-align: center;
+}
+
+.new_age .new_age_detail .detail {
+    display: flex;
+    width: 1200px;
+    gap: 30px;
+    margin: 0 auto;
+
+}
+
+.new_age .new_age_detail .detail figure {
+    border: 1px solid #ddd;
+}
+
+.new_age .new_age_detail img {
+    margin: 0 0 20px 0;
+}
+
+.new_age .new_age_detail p {
+    margin: 0 0 20px 0;
+}
+
+.fountain_pen {
+    padding: 0 0 100px 0;
+}
+
+.fountain_pen .container {
+    position: relative;
+}
+
+.fountain_pen .fountain_pen_bg {
+    width: 100%;
+    background: url(../img/pen_bg.jpg) no-repeat center center/cover;
+    height: 50vh;
+    margin: 0 0 150px 0;
+}
+
+.fountain_pen .txt {
+    /* outline: 1px solid #ff0; */
+    width: 1200px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.fountain_pen .txt h2 {
+    font-size: 35px;
+    font-weight: 500;
+    padding: 350px 0 0 0;
+    margin: 0 0 10px 0;
+    line-height: 1.45;
+}
+
+.fountain_pen .txt p {
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+    line-height: 1.45;
+}
+
+.fountain_pen .pen_line_up {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fountain_pen .pen_line_up .product {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto 100px auto;
+}
+
+.fountain_pen .pen_line_up .bottom {
+    margin: 0 auto;
+}
+
+.fountain_pen .pen_line_up .pen_title {
+    position: relative;
+    color: #fff;
+}
+
+
+.pen_line_up .pen_title .pen_title_txt {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+
+}
+
+.pen_line_up .pen_title .pen_title_txt h3 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.45;
+    margin: 0 0 10px 0;
+}
+
+.pen_line_up .pen_title .pen_title_txt p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.45;
+}
+
+
+.fountain_pen .pen_line_up .product .pen_img {
+    text-align: center;
+}
+
+.fountain_pen .pen_line_up .product .pen_img img {
+    transform: scale(0.5);
+    transition: 0.5s;
+}
+
+.fountain_pen .pen_line_up .product .pen_img img:hover {
+    transform: scale(0.7);
+}
+
+.fountain_pen .pen_line_up .product .pen_img figure {
+    background: #f5f5f5;
+    margin: 0 0 30px 0;
+}
+
+.fountain_pen .pen_line_up .product .pen_img h4 {
+    margin: 0 0 10px 0;
+}
+
+.bottom_Banner {
+    padding: 100px 0;
+    background: #ddd;
+    text-align: left;
+}
+
+.bottom_Banner .container {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bottom_Banner .banner {
+    background: #fff;
+}
+
+.bottom_Banner .banner img {
+    margin: 0 0 50px 0;
+}
+
+.bottom_Banner .banner h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 80px 0;
+}
+
+.bottom_Banner .banner p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+.bottom_Banner .banner .banner_txt {
+    padding: 0 10%;
+}
+
+
+footer {
+    background: #000;
+    color: #f5f5f5;
+    padding: 100px 0 30px 0;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer .container .logo {
+    margin: 0 0 80px 0;
+}
+
+footer .container ul li {
+    text-align: center;
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0 0 50px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+footer .container .sns {
+    margin: 0 0 50px 0;
+}
+
+footer .container i {
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+footer .container .copyright {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.3;
+}
